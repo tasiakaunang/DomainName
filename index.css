@@ -1,78 +1,166 @@
-body{
+*{
     margin:unset;
+    box-sizing: border-box;
+    font-family: "SoDoSans", sans-serif;
+    font-size: 15px;
 }
-        .header {
-            background-color: #007042;
-            width: 100%;
-            height: 20px;
-            text-align: center;
-        }
-        .topnav {
-            overflow: hidden;
-            background-color: white;
-            display: flex;
-            justify-content: center;
-        }
-        .topnav img {
-            float: left;
-            left: 0px;
-            width: 46px;
-        }
-        .topnav a{
-            float: left;
-            display: block;
-            color: black;
-            text-align: center;
-            padding: 14px 16px;
-            text-decoration: none;
-        }
-        .content {
-            align-items: center;
-            
-        }
-        /* ul {
+body {
+    background-color: white;
+}
+a:hover, a:active {
+    color: lightgray;
+}
+.header {
+    background-color: #007042;
+    width: 100%;
+    height: 10px;
+}
+.logo {
+    padding: 5px 30px 80px 60px;
+}
 
-        } */
-        .img1{
-            left: 0;
-            top: 0;
-            width: 100%;
-            height: 100%;
-            background-repeat: no-repeat;
-            background-position: top center;
-            z-index: -999;
-        }
-        .footer a img {
-            background-color: lightgray;
-            float: left;
-            padding: 0% 47%;
-            text-align: left;
-        }
-        .footer ul a{
-            margin-right: 50px;
-        }
-        .footer table {
-            float: left;
-        }
-        .footer img {
-            float:right;
-            z-index: -1; 
-            padding-right:30px
-        }
-       
-        .namainclasssendiri{
-            float:right!important;
-            margin-top: -36px;
-            margin-right: 58px;
-        }
+nav ul li  {
+    float: left;
+    list-style: none;
+    padding-top: 30px;
+}
+.loc {
+    float: right;
+    font-size: 15px;
+    margin: 30px;
+    padding: 10px;
+}
+.one {
+    color: black;
+    text-decoration: none;
+    font-size:17px;
+    color:#007042;
+    margin-left: 220px;
+}
+.fas {
+    position: relative;
+    left: -8px;
+    font-size:17px;
+    color:#007042;
+}
+.fab {
+    font-size:30px;
+}
+ul li a  {
+    color: black;
+    text-decoration: none;
+    padding: 18px;
+    margin-top: 21px;
+    margin-right: 5px;
+    margin-left: -7px;
+}
+a.a:hover {
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+.background img {
+    margin-top: -60px;
+    width: 100%;
+    text-decoration: none;
+}
+li.sosmed {
+    display: inline-block;
+    height: 70px;
+    background-color:rgb(240, 240, 240);
+}
+.sosmed-footer {
+    margin-top: -10px;
+    width: 100%;
+    padding-top: 50px;
+    padding-left: 10px;
+    background-color: rgb(240, 240, 240);
+}
+tr td a {
+    width: 100%;
+    margin-left: 25px;
+}
+.footer2 {
+    text-transform: uppercase;
+}
+table{
+    border-collapse: collapse;
+    margin-left: 50px;
+}
+table a {
+    text-decoration: none;
+    color: black;
+}
+td.one1 {
+    top: 35px;
+    position: relative;
+}
+td.two2 {
+    top: 35px;
+    left: 70px;
+    position: relative;
+}
+td.three3 {
+    top: 35px;
+    left: 90px;
+    position: relative;
+}
+td.four4 { 
+    top: 60px;
+    padding-bottom: 10px;
+    position: relative;
+}
+td.five5 {
+    left: 70px;
+    top: 60px;
+    padding-bottom: 10px;
+    position: relative;
+}
+td.six6 {
+    top: 60px;
+    padding-bottom: 10px;
+    left: 90px;
+    position: relative;
+}
+.wordmark img {
+    width: 15px;
+    margin-right: 95px;
+    float: right;
+    margin-top: -134px;
+}
+a.last:hover {
+    color: gray;
+}
+.last {
+    text-transform: none;  
+    color: gray;
+}
+.footer3{
+    color: grey;
+}
+.footer4 li {
+    display: inline; 
+    position: relative;
+    top: 120px;
+    left: 10px;
+}
+.l {
+    font-size:20px ;
+}
+.footer5 p {
+    left: 67px;
+    top: 150px;
+    position: relative;
+    font-size: 14px;
+    color: gray;
+}
+.icon {
+    font-size: 14px;
+}
+.last_footer {
+    background-color: rgb(56, 47, 45);
+    width: 100fr;
+    height: 10px;
+    position: relative;
+    bottom: -170px;
+}
 
-
-       .row{
-        display: flex;
-        flex-wrap: wrap;
-        margin-right: -15px;
-        margin-left: -15px;
-       }
-       .wordmark{
-        height: 144px;
-       }

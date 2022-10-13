@@ -1,102 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>CONTACT US</title>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-* {
-  box-sizing: border-box;
-}
-
-body {
-  margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-/* Style the side navigation */
-.sidenav {
-  height: 100%;
-  width: 200px;
-  position: fixed;
-  z-index: 1;
-  top: 0;
-  left: 0;
-  background-color: #111;
-  overflow-x: hidden;
-}
-
-
-/* Side navigation links */
-.sidenav a {
-  color: white;
-  padding: 16px;
-  text-decoration: none;
-  display: block;
-}
-
-/* Change color on hover */
-.sidenav a:hover {
-  background-color: #ddd;
-  color: black;
-}
-
-/* Style the content */
-.content {
-  margin-left: 200px;
-  padding-left: 20px;
-}
-</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="waving.png">
+    <link rel="stylesheet" href="contact.css">
+    <link href='https://fonts.googleapis.com/css?family=Delius' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Gamja Flower' rel='stylesheet'>
+    <title>Contact Us</title>
 </head>
 <body>
+    <h1>CONTACT US</h1>
+    <form>
+        <p>
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name" required placeholder="Input Your Full Name">
+        </p>
+        <p>      
+            <label for="email">E-mail: </label><br>
+            <input type="email" id="email" name="email" required placeholder="Input Your E-mail">
+        </p> 
+        <p>
+            <label for="username">Username: </label><br>
+            <input type="text" id="username" name="username" required placeholder="Input Your Username">
+        </p>
+        <p>
+            <label for="password">Password: </label><br>
+            <input type="password" id="password" name="password" required placeholder="Input Your Password">
+        </p>
+        <p>
+            <label for="gender">Gender: </label><br>
+            <input type="radio" id="male" name="gender" value="male" required>
+            <label for="lakilaki">Male</label>
+            <input type="radio" id="female" name="gender" value="female" required>
+            <label for="female">Female</label>
+        </p>
+        <p>
+            <label for="religion">Religion: </label><br>
+            <select name="religion"required>Choose Your Religion
+                <option>Christian</option>
+                <option>Islam</option>
+                <option>Budha</option>
+                <option>Confucius</option>
+                <option>Catholic</option>
+            </select>
+        </p>
+        <p>
+            <label for="address">Address: </label><br>
+            <textarea id="address" name="address" rows="5" cols="30"></textarea>
+        </p>
+        <p>
+            <label for="hobby">Hobby: </label><br>
+            <input type="checkbox" id="sports" name="hobby1" value="sports">
+            <label for="sports">Sports</label>
+            <input type="checkbox" id="singing" name="hobby2" value="singing">
+            <label for="nyanyi">Singing</label>
+            <input type="checkbox" id="reading" name="hobby3" value="reading">
+            <label for="reading">Reading</label>
+            <input type="checkbox" id="movie" name="hobby4" value="movie">
+            <label for="movie">Movie</label>
+            <input type="checkbox" id="music" name="hobby5" value="music">
+            <label for="music"></label>Music</label>
+        </p>
+        <p>
+            <input type="submit" value="Simpan">
+            <input type="reset">
+        </p>
+        <div class="halaman">
+            <p><a href="index.html" target="_blank">HOME</a>
+            <a href="biodata.html" target="_blank">BIODATA</a>
+            <a href="contact_us.html" target="_blank">CONTACT US</a>
+            <a href="https://unai.edu" target="_blank">UNAI</a>
+            <a href="https://fti.unai.edu" target="_blank">FTI UNAI</a></p>
+        </div>
+    </form>
 
-    <h2>Learn HTML Form</h2>
-
-     <form action="savedata.php" method="post">
-         <label for="fname">Full Name:</label><br>  
-         <input type="text" id="fname" name="fname" placeholder="Please type your full name here" size="50"><br>
-         <label for="email">E-mail:</label><br>
-         <input type="text" id="email" name="imail" placeholder="Please type your email here" size="50"><br>
-     
-         <label for="password">Password</label><br>
-         <input id="password" type="password" name="password"><br>
-
-         <input type="color"
-     <br>
-         Sex:
-         <input type="radio" id="male" name="sex" value="male"> 
-         <label for="male">Male</label>
-         <input type="radio" id="female" name="sex" value="female" checked> 
-         <label for="female">Female</label>
-     <br>
-         <p>Hobbies:</p>
-         <input type="checkbox" name="hobbies" id="games" value="games">
-         <label for="games">Games</label>
-     <br>
-         <input type="checkbox" name="reading" id="reading" value="reading" checked>
-         <label for="reading">Reading</label>
-     <br>
-         <input type="checkbox" name="singing" id="singing" value="singing">
-         <label for="singing">Singing</label>
-
-         <p>Choose your favourite IT brand</p>
-         <select name="itbrand" size="1" multiple>
-             <option value="samsung">Samsung</option>
-             <option value="nokia">Nokia</option>
-             <option value="intel" selected>Intel</option>
-             <option value="lenovo">Lenovo</option>
-         </select>
-         
-         <p>Please write your comment below:</p>
-         <textarea name="comment" rows="5" cols="30">Insert comment</textarea>
-
-     <br>
-     <br> 
-
-     <input type="submit" value="Save">
-     </form>
-
- </body>
+</body>
 </html>
-
-

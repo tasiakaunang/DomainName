@@ -1,0 +1,28 @@
+body {
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family:"Delius";
+    background-image: url('biodata.png');
+    background-attachment: fixed;
+    text-align: center;
+    margin: 0;
+    size: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size:medium;
+}
+img {
+    float: right;
+    width: 30%;
+    margin: 100px;
+}
+.bio {
+    background-color: rgba(137, 109, 71, 0.635);
+    size: 100%;
+    color: white;
+    float: justify;
+    font-family: Neucha;
+    padding: 86px 100px 398px 207px;
+}
